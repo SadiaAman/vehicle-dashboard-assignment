@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------------------
+# Private / not for publication
+# ---------------------------------------------------------------------------
+# Personal presentation notes. Stays on the local machine, never committed.
+PRESENTATION_GUIDE.md
+
+# ---------------------------------------------------------------------------
+# Python backend
+# ---------------------------------------------------------------------------
+python-backend/.venv/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.env
+
+# Generated log files are runtime output, not source. The logs/ directory
+# itself is kept (see logs/.gitkeep) so the backend can write into it on a
+# fresh clone without any extra setup step.
+*.log
+python-backend/logs/*.log
+python-backend/logs/*.log.*
+
+# ---------------------------------------------------------------------------
+# Android
+# ---------------------------------------------------------------------------
+android-app/.gradle/
+android-app/.idea/
+android-app/local.properties
+android-app/**/build/
+build/
+# Kotlin build sessions, created by AGP 9 / Kotlin 2.x during a build.
+.kotlin/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---------------------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------------------
+.vscode/
+.DS_Store
+Thumbs.db

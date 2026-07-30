@@ -1,0 +1,4 @@
+# Runtime dependencies, pinned to the versions this project was tested with.
+# fastapi[standard] pulls in uvicorn, pydantic and httpx - no other framework
+# is needed for a service of this size.
+fastapi[standard]==0.141.1
