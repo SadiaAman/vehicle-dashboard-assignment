@@ -34,7 +34,6 @@ VehicleDashboardAssignment/
 ├── docs/
 │   ├── ARCHITECTURE.md     Toolchain + software architecture diagrams
 │   └── UI reference mock-ups
-├── PRESENTATION_GUIDE.md
 └── README.md
 ```
 
@@ -43,7 +42,6 @@ VehicleDashboardAssignment/
 * [Android app README](android-app/README.md) — architecture, UI decisions, setup, limitations
 * [Backend README](python-backend/README.md) — endpoints, simulator, logging, tests
 * [Architecture diagrams](docs/ARCHITECTURE.md) — toolchain and data flow
-* [Presentation guide](PRESENTATION_GUIDE.md) — demo script and Q&A
 
 ---
 
